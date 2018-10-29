@@ -5,8 +5,8 @@
 .DESCRIPTION
 	This Script is for sync files to an local path 
 
-.PARAMETER <Parameter_Name>
-	not needed
+.PARAMETER <SourcePath>
+	Specify the path to download
 
 .LINK
 	http://social.technet.microsoft.com/Forums/de-DE/bd084de8-4008-4cd2-bec5-ba1aeef9b581/powershelskript-aus-dem-kontextmen-starten?forum=powershell_de
