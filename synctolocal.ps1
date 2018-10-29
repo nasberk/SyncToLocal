@@ -23,16 +23,14 @@
 #---[ Parameters ]---------------------------------------------------------------------------------
 
 Param (
-    [Parameter(Mandatory=$true,Position=0)][string]$SourcePath = "NOPATH"
+    [Parameter(Mandatory=$true,Position=0)][string]$SourcePath = "NOPATH",
+    [Parameter(Position=1)][string]$LocalCopyDir = "D:\LocalCopy\"
 )
 
 #---[ Initialisations ]----------------------------------------------------------------------------
 
 #ErrorAction and clear of error variable
 $Error.clear()
-
-# Local Copy dir
-$LocalCopyDir = "D:\LocalCopy\"
 
 # MSG BOX init
 [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
